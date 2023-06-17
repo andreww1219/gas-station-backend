@@ -1,0 +1,23 @@
+{
+	"name": "service",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"dev": "nodemon --watch main.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@koa/cors": "^4.0.0",
+		"@koa/multer": "^3.0.2",
+		"@koa/router": "^12.0.0",
+		"koa": "^2.14.1",
+		"koa-logger": "^3.2.1",
+		"koa-range": "^0.3.0",
+		"koa-static": "^5.0.0",
+		"multer": "1.4.5-lts.1",
+		"nodemon": "^2.0.21"
+	}
+}

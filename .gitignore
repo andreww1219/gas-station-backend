@@ -1,0 +1,7 @@
+# 依赖
+node_modules
+yarn-error*.log
+pnpm-debug*.log
+
+# 输出文件
+public
